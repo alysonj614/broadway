@@ -2,51 +2,83 @@
 <html>
   <head>
     <title>Broadway Design</title>
-    <link href="./resources/style.css" type="text/css" rel="stylesheet">
+    <link href="./resources/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+
+    <!--Hero-->
+    <div class="hero">
     <h1>Broadway Design</h1>
 
-    <!--Navigation-->
-
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <p><a class="btn-nav" href="#">Home</a></p>
+        <p><a class="btn-nav" href="#process">Process</a></p>
+        <p><a class="btn-nav" href="#work">Work</a></p>
+        <p><a class="btn-nav" href="#team">Team</a></p>
+        <p><a class="btn-nav" href="#contact">Contact</a></p>
     </nav>
+  </div>
 
     <!--Main-->
+    <div class="supporting" id="process">
+      <h2>Our Process</h2>
+      <div class="supporting-item">
+        <p><img src="./images/identify.svg"/></p>
+        <h3>Identify</h3>
+        <p>We focus on the most important details.</p>
+      </div>
+      <div class="supporting-item">
+        <p><img src="./images/understand.svg"/></p>
+        <h3>Understand</h3>
+        <p>We study our projects inside and out.</p>
+      </div>
+      <div class="supporting-item">
+        <p><img src="./images/execute.svg"/></p>
+        <h3>Execute</h3>
+        <p>We put everything we have into our work.</p>
+      </div>
+    </div>
 
-    <h2>Our Process</h2>
-    <p><img src="./images/identify.svg"/></p>
-    <h3>Identify</h3>
-     <p>We focus on the most important details.</p>
-    <p><img src="./images/understand.svg"/></p>
-    <h3>Understand</h3>
-      <p>We study our projects inside and out.</p>
-    <p><img src="./images/execute.svg"/></p>
-    <h3>Execute</h3>
-      <p>We put everything we have into our work.</p>
-
-    <!--Information Section-->
-
+    <!--Mini-Hero Section-->
+  <div class="hero">
       <h2>Designed in New York</h2>
+    </div>
+
+    <!--About Section-->
+    <div class="supporting" id="work">
+      <div class="supporting-item">
       <h3>Portfolio</h3>
         <p>Coming Soon</p>
+      </div>
+    </div>
+
+    <div class="supporting" div id="team">
+      <div class="supporting-item">
       <h3>Team</h3>
         <p>We're Hiring!</p>
-      <h3>Contact</h3>
-        <p>Phone: (555) 555-5555</p>
-        <p>E-Mail: test@example.com</p>
-        <p>Twitter: @test</p>
+      </div>
+    </div>
 
-        <!--Footer-->
+      <div class="supporting" div id="contact">
+        <div class="supporting-item">
+          <h3>Contact</h3>
+          <p>Phone: (555) 555-5555</p>
+          <p>E-Mail: test@example.com</p>
+          <p>Twitter: @test</p>
+        </div>
+      </div>
+
+      <!--Footer-->
+
       <div class="footer">
-        <p>&copy; Broadway 2017<a href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#team">Team</a><a href="#contact">Contact</a></p>
+        <p>
+          &copy; Broadway 2017
+          <a class="btn-nav" href="#">Home</a>
+          <a class="btn-nav" href="#about">About</a>
+          <a class="btn-nav" href="#work">Work</a>
+          <a class="btn-nav" href="#team">Team</a>
+          <a class="btn-nav" href="#contact">Contact</a>
+        </p>
       </div>
   </body>
 </html>
